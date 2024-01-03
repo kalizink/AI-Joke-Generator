@@ -1,8 +1,8 @@
-function showJoke() {
+function showJoke(response) {
 	let showJoke = document.querySelector("#display-joke");
 	let generateJoke = document.querySelector("#generate-joke");
 	generateJoke.classList.add("hide");
-	showJoke.innerHTML = "hi";
+	showJoke.innerHTML = response.data.answer;
 }
 
 function generateJoke() {
