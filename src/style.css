@@ -1,3 +1,41 @@
+html {
+	height: 100%;
+}
+body {
+	background: radial-gradient(
+		1023px at 3.1% 6.9%,
+		rgb(255, 255, 255) 0%,
+		rgb(205, 40, 83) 74.9%
+	);
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .hide {
 	display: none;
+}
+.container {
+	background: #f7d9df;
+	max-width: 600px;
+	height: 250px;
+	margin: 60px auto;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.button {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 20px;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.text {
+	text-align: center;
+	font-size: 20px;
 }
