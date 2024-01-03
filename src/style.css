@@ -12,6 +12,11 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+footer {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+}
 .hide {
 	display: none;
 }
